@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>صفحه معرفی rav_en20_10</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+  * { margin:0; padding:0; box-sizing:border-box; font-family: 'Vazirmatn', sans-serif; }
+
+  body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #ff6ec4, #7873f5, #42e695);
+    background-size: 600% 600%;
+    animation: gradientAnimation 15s ease infinite;
+    color: #fff;
+  }
+
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .links {
+    margin-left: 50px;
+  }
+
+  .links a {
+    display: block;
+    margin: 15px 0;
+    padding: 12px 25px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .links a:hover {
+    background: rgba(255,255,255,0.5);
+  }
+
+  .profile {
+    margin-right: 50px;
+    text-align: center;
+  }
+
+  .profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .profile h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+  }
+
+  .profile p {
+    font-size: 1rem;
+    opacity: 0.8;
+  }
+
+  @media(max-width: 768px) {
+    body { flex-direction: column; justify-content: center; }
+    .links, .profile { margin: 20px 0; }
+  }
+</style>
+</head>
+<body>
+  <div class="links">
+    <a href="https://instagram.com/rav_en20_10" target="_blank">اینستاگرام</a>
+    <a href="#">لینک 2</a>
+    <a href="#">لینک 3</a>
+  </div>
+  <div class="profile">
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <h2>rav_en20_10</h2>
+    <p>معرفی کوتاه پیج یا شعار</p>
+  </div>
+</body>
+</html>
